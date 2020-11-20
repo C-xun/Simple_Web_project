@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>北海旅游指南网站</title>
+<link href="../css/strategy_css.css" rel="stylesheet" type="text/css">
+<link href="../css/route_css.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<div id="head">
+	  <div class="logo">
+		  <p>北海旅游网</p>
+	  </div>
+	  <div class="list">
+			<ul>
+				<li><a href="index.html">首&nbsp;页</a></li>
+				<li><a href="strategy.html">旅游攻略</a></li>
+				<li style="background-color: #00CDD9">
+					<a href="#">精选线路</a>
+					<ul>
+					<li><a href="#">涠洲岛</a></li>
+					<li><a href="#">星岛湖</a></li>
+					<li><a href="#">红树林</a></li>
+					<li><a href="#">北海银滩</a></li>
+					<li><a href="#">北海老街</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="product.html">旅游产品</a>
+					<ul>
+						<li><a href="product.html">珍珠</a></li>
+						<li><a href="product.html">海产品</a></li>
+						<li><a href="product.html">东园家酒</a></li>
+						<li><a href="product.html">北海贝雕</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="about.html">关于我们</a>
+					<ul>
+						<li><a href="lianxi.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li><a href="travels.html">游&nbsp;记</a></li>
+			</ul>
+		</div>
+    </div>
+<div id="show"></div>
+<div id="main">
+  <div style="text-align: center;margin-top: 20px;">
+    <p style="font-size: 30px; color: lightgrey;font-weight: bold;"><span style="color: #000000;font-family: '宋体';">旅游路线·</span>Tour route</p>
+  </div>
+  <div style="text-align: center;margin-top: -15px;margin-bottom: 25px;">
+    <input type="button" value="著名景点" id="but_1" onClick="block_1()">
+    <input type="button" value="高档酒店" id="but_2" onClick="block_2()">
+    <input type="button" value="美味小吃" id="but_3" onClick="block_3()">
+  </div>
+  <div class="touism">
+    <div id="show_1" style="display: block;">
+      <div class="panel">
+        <a href="#"><img src="../images/strategy_1.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">银滩</p>
+        <p style="font-size: 14px;color:#8F8F8F;">在银滩长达七八个月的诱人泳季，在蓝天白云下沐浴着灿烂的阳光，在洁白的沙滩上游玩嬉戏，在轻柔的波浪中尽情畅游，在微腥阵阵的海风中冥想；乘海上降落伞翱翔蓝天，驾惊险刺激的摩托艇乘风破浪...</p>
+      </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/bottom.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">涠洲岛</p>
+        <p style="font-size: 14px;color:#8F8F8F;">Day 1   出发；广州到北海每天只有一趟直飞的飞机，晚上9点半起飞，10点半到达。机票基本上折扣不多，经济舱价格在600多元，头等舱就要1700多了，如果选择坐飞机出发的童鞋一定要早订机票...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/panel_1.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">侨港</p>
+        <p style="font-size: 14px;color:#8F8F8F;">侨港海滩位于侨港镇渔港，与“天下第一滩”北海银滩毗邻，是我国南方的旅游胜地。沙滩由石英砂堆积而成，沙质与银滩较之颜色稍暗，但不失细腻柔和。侨港海滩滩面延绵约500米，一般非旺季时相对银滩来说...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/05.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">老街</p>
+        <p style="font-size: 14px;color:#8F8F8F;">这些建筑临街的骑楼部分，既是道路向两侧的扩展又是铺面向外部的延伸，人们行走在骑楼下，既可遮风挡雨又可躲避烈日；骑楼的方形柱子粗重厚大，颇有古罗马建筑的风格...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/02.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">历史文化馆</p>
+        <p style="font-size: 14px;color:#8F8F8F;">该馆在梳理北海老城的历史脉络中，重现老城昔日繁华景象，展示老城 独具特色的历史遗存。 深度挖掘老城的精神文化内涵，展示出一种缘海而生、伴海而兴、中西合璧的滨海古城历史文化底蕴...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/10.jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">北部湾一号</p>
+        <p style="font-size: 14px;color:#8F8F8F;">北部湾的海流，在冬季沿反时针方向转，外海的水沿湾的东侧北上，湾内的水顺着湾的西边南下，形成一个环流；夏季，因西南季风的推动，海流形成一个方向相反的环流...</p>
+        </a></div>
+    </div>
+    <div id="show_2" style="display: none;">
+	  <div class="panel">
+         <a href="#"><img src="../images/hotel_1 (1).jpg" width="100%" height="55%" alt="">
+         <p style="font-weight: bold;color: #000000;">北海银滩故事度假酒店</p>
+         <p style="font-size: 14px;color:#8F8F8F;">北海银滩度假村是一家花园别墅式休闲酒店，拥有安静优雅的花园式环境、小巧温馨的家庭式客房，营造出一个如家般温暖和舒适的住房环境。度假村内还配备有棋牌室、乒乓球室、室外游泳池、日光浴场、中餐厅、西餐厅等，为您奉上一次温馨、愉快的旅途。...</p>
+      </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/hotel_1 (2).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">北部湾一号海景酒店公寓</p>
+        <p style="font-size: 14px;color:#8F8F8F;">北部湾一号假日花园海景酒店公寓为您提供典雅宽敞的房间，客房大面落地窗正对户外大海、蓝天白云。暖色调系的室内设计，加上实木家具，让旅客放下疲惫的心情...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/hotel_1 (3).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">涠洲岛海云间海景公寓</p>
+        <p style="font-size: 14px;color:#8F8F8F;">涠洲岛海云间客栈（北海）位于涠洲岛东海岸，在2013年5月竣工，客栈设备齐全，设有无线宽带，每层都有公共阳台，共有18间房，其中亲子间2间，观景标间8间，观景大床房4间，可以同时容纳40人左右同时用餐...</p>
+      </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/hotel_1 (4).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">北海月半湾假日酒店</p>
+        <p style="font-size: 14px;color:#8F8F8F;">酒店是以地中海为主题的城堡式主题酒店，并配有HOIleKItty、海贼王、田园、复古、阿达加斯加，满足不同顾客的需要。楼顶天台可直接观海，内设私家花园和露天泳池，是海边度假休闲的理想去处...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/hotel_1 (5).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">银滩和里别墅</p>
+        <p style="font-size: 14px;color:#8F8F8F;">北海银滩和里别墅度假民宿坐落于银滩度假区内，步行约10分钟可达银滩，约5分钟车程可达侨港美食街、国际客运码头、万达广场等。和里融合原生态木质情怀加点小北欧外观风格特色...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/hotel_1 (6).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">梵俪北海半岛中心空中泳池酒店</p>
+        <p style="font-size: 14px;color:#8F8F8F;">梵俪北海半岛中心空中泳池酒店位于北海市中心的主干道－－北海大道和四川路的交界处，紧邻北海火车站、国家4A级景区北海老街，步行便能前往北部湾广场商业圈，酒店门口还有直达北海银滩、万达广场等景区商业区的观光巴士，出行相当便捷...</p>
+        </a></div>
+	</div>
+	<div id="show_3" style="display: none;">
+		<div class="panel">
+          <a href="#"><img src="../images/food_1 (2).jpg" width="100%" height="55%" alt="">
+          <p style="font-weight: bold;color: #000000;">海鲜</p>
+          <p style="font-size: 14px;color:#8F8F8F;">北海北部湾为中国四大渔场之一。这里盛产海鲜，且海鲜的种类齐全，有石斑鱼、花蟹等应有尽有，而海鲜的制作方法也是各式各样，有蒜蓉、清蒸、爆炒等，是爱吃海鲜的食客不可错过的地方...</p>
+      </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/food_2 (2).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">越南卷粉</p>
+        <p style="font-size: 14px;color:#8F8F8F;">越南卷粉经过当地人改良后更具北海特色。用米和水磨制成米粉放到蒸笼蒸一个小时，出笼后可根据个人的口味放入鸡蛋、香菇、葱花等馅料，还可以抹上沙蟹汁、特制酱料拌着吃，味道十分鲜美...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/food_3 (2).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">糖水</p>
+        <p style="font-size: 14px;color:#8F8F8F;">糖水是北海地区有名的特色风味。糖水在不同季节食用方法也各不相同，夏季有绿豆沙、马蹄爽等，冬天有黑糯米、芝麻糊等。因种类多样，口感层次丰富，受到广大食客的喜爱...</p>
+      </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/food_4 (2).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">蟹仔粉</p>
+        <p style="font-size: 14px;color:#8F8F8F;">蟹仔粉是北海侨港风情街上随处可见的美味之一。上桌的蟹仔粉味道鲜美，蟹香浓郁，制作时巧妙中加入西红柿，非常提味...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/food_5 (2).jpg" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">虾饼</p>
+        <p style="font-size: 14px;color:#8F8F8F;">北海的小吃街头常见的面点，已有200多年的历史。将新鲜虾肉剁碎加入葱、盐、花椒等调料，再加入水和面和匀，可制作成三角形或者圆形放入油锅中煎至两面金黄即可出锅。外酥里嫩的虾饼可直接食用，也可搭配蘸料，美味至极...</p>
+        </a></div>
+      <div class="panel">
+        <a href="#"><img src="../images/food_6 (2).png" width="100%" height="55%" alt="">
+        <p style="font-weight: bold;color: #000000;">沙虫</p>
+        <p style="font-size: 14px;color:#8F8F8F;">沙虫因生活在海边的沙地里，所以又叫沙肠虫，外形酷似肠子，其味道鲜美，脆嫩爽口，是北海有名的特产。将处理干净的沙虫用葱、姜，以大火快炒至成熟，颜色雪白，口感鲜甜爽口，十分有嚼劲...</p>
+        </a></div>
+	</div>
+  </div>
+</div>
+<div id="bottom">
+	<br>
+  <p style="color:#868686;text-align: center;">电话：18757668136 &nbsp; 邮箱：1291985272@QQ.com &nbsp; 地址：XXX省XXX市XXX县XXX路XXX号</p>
+	<p style="color:#868686;text-align: center;margin-top: 1%;">Copyright © 2010-2020   版权所有归2018级181203040402曹荣勋所有未经许可不得复制、更改</p>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/panel_change.js"></script>

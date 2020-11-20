@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>北海旅游指南网站</title>
+<!-- TemplateEndEditable -->
+<link href="../css/strategy_css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="OptionalRegion1" type="boolean" value="true" -->
+</head>
+
+<body>
+<div id="head">
+	  <div class="logo">
+		  <p>北海旅游网</p>
+	  </div>
+	  <div class="list">
+			<ul>
+				<li><a href="../html/index.html">首&nbsp;页</a></li>
+				<li><a href="../html/strategy.html">旅游攻略</a></li>
+				<li>
+					<a href="../html/route.html">精选线路</a>
+					<ul>
+					<li>涠洲岛</li>
+					<li>星岛湖</li>
+					<li>红树林</li>
+					<li>北海银滩</li>
+					<li>北海老街</li>
+					</ul>
+				</li>
+				<li>
+					<a href="../html/product.html">旅游产品</a>
+					<ul>
+						<li>珍珠</li>
+						<li>海产品</li>
+						<li>东园家酒</li>
+						<li>北海贝雕</li>
+					</ul>
+				</li>
+				<li>
+					关于我们
+					<ul>
+						<li>联系我们</li>
+					</ul>
+				</li>
+				<li><a href="#">游&nbsp;记</a></li>
+			</ul>
+		</div>
+    </div>
+<div id="show"></div>
+<!-- TemplateBeginIf cond="OptionalRegion1" --><!-- TemplateBeginEditable name="EditRegion3" -->
+<div id="main">此处显示  id "main" 的内容</div>
+<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+<div id="bottom">
+	<br>
+  <p style="color:#868686;text-align: center;">电话：18757668136 &nbsp; 邮箱：1291985272@QQ.com &nbsp; 地址：XXX省XXX市XXX县XXX路XXX号</p>
+	<p style="color:#868686;text-align: center;margin-top: 1%;">Copyright © 2010-2020   版权所有归2018级181203040402曹荣勋所有未经许可不得复制、更改</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>北海旅游指南网站</title>
+<link href="../css/strategy_css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/province.js"></script>
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<link href="../css/lianxi_css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+</head>
+
+<body  onload="setup();preselect('北京市');promptinfo();">
+<div id="head">
+	  <div class="logo">
+		  <p>北海旅游网</p>
+	  </div>
+	  <div class="list">
+			<ul>
+				<li><a href="index.html">首&nbsp;页</a></li>
+				<li><a href="strategy.html">旅游攻略</a></li>
+				<li>
+					<a href="route.html">精选线路</a>
+					<ul>
+					<li><a href="route.html">涠洲岛</a></li>
+					<li><a href="route.html">星岛湖</a></li>
+					<li><a href="route.html">红树林</a></li>
+					<li><a href="route.html">北海银滩</a></li>
+					<li><a href="route.html">北海老街</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="product.html">旅游产品</a>
+					<ul>
+						<li><a href="product.html">珍珠</a></li>
+						<li><a href="product.html">海产品</a></li>
+						<li><a href="product.html">东园家酒</a></li>
+						<li><a href="product.html">北海贝雕</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="about.html">关于我们</a>
+					<ul>
+			<li><a href="#">联系我们</a></li>
+					</ul>
+				</li>
+				<li><a href="travels.html">游&nbsp;记</a></li>
+			</ul>
+		</div>
+    </div>
+<div id="show"></div>
+<div id="main">
+  <div style="text-align: center;margin-top: 20px;">
+    <p style="font-size: 30px; color: lightgrey;font-weight: bold;"><span style="color: #000000;font-family: '宋体';">联系我们·</span>Contant Us</p>
+  </div>
+	<iframe width="100%" height="40%" src="https://map.baidu.com/@12154157.562909678,2430491.914373254,18.02z" style="border: none;"></iframe>
+	<div id="liuye_1">
+	  <div class="liuye_1_1">
+		  <strong style="font-size: 22px;">您也可以通过以下方式联系我们:<br></strong>
+		  <p style="font-size: 18px;line-height: 30px;">
+		  地址：XXX省XXX市XXX县XXX路XXX号<br>
+		  客服QQ：12919852722<br>
+		  电话：020-000000 18757668136<br>
+		  传真：020-000000 <br>
+		  邮箱：1291985272@QQ.com<br>
+		  </p>
+	    <div class="online">
+		  <div style="width: 80%;height: 30px;background-color: #292929;color: #FFFFFF;line-height: 30px;font-size: 25px;">在线客服</div>
+          <img src="../images/QQ.png" alt="" style="float: left;cursor:pointer;" onClick="MM_openBrWindow('https://shang.qq.com/email/stop/email_stop.html?','','')"><p style="width: 80px;float: left;cursor:pointer;" onMouseOver="MM_openBrWindow('https://shang.qq.com/email/stop/email_stop.html?','','')">&nbsp;客服一&nbsp;</p>
+		  <img src="../images/QQ.png" alt="" style="float: left;cursor:pointer;" onClick="MM_openBrWindow('https://shang.qq.com/email/stop/email_stop.html?','','')"><p style="width: 80px;float: left;cursor:pointer;" onMouseOver="MM_openBrWindow('https://shang.qq.com/email/stop/email_stop.html?','','')">&nbsp;客服二&nbsp;</p>
+		  <div style="width: 80%;height: 100px;float: left;border: #868686 1px solid;border-radius: 5px;">
+			  <p style="font-size: 22px;margin: 0px;">服务时间：</p>
+			  <p style="font-size: 20px;margin: 10px 0px;">周一至周五 ：8:30-17:30</p>
+			  <p style="font-size: 20px;margin: 10px 0px;">周六至周日 ：9:00-17:00</p>
+		  </div>
+        </div>
+      </div>
+	  <div class="liuye_1_2">
+		  <form  name="reg_testdate">
+			  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td colspan="2" style="font-size: 25px;color: #868686">姓名</td>
+      </tr>
+    <tr>
+      <td width="90%"><input type="text" id="name"></td>
+      <td style="color: #FF0004;">*</td>
+    </tr>
+	  <tr>
+      <td colspan="2" style="font-size: 25px;color: #868686">联系方式</td>
+      </tr>
+	  <tr>
+      <td><input type="text" id="number"></td>
+      <td style="color: #FF0004;">*</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-size: 25px;color: #868686">电子邮箱</td>
+      </tr>
+	  <tr>
+      <td><input type="email" id="email"></td>
+      <td style="color: #FF0004;">*</td>
+    </tr>
+	 <tr>
+      <td colspan="2" style="font-size: 25px;color: #868686">所在地区</td>
+      </tr>
+    <tr>
+      <td>
+		  <select class="select" name="province" id="s1">
+          <option></option>
+          </select>
+          <select class="select" name="city" id="s2">
+          <option></option>
+          </select>
+          <select class="select" name="town" id="s3">
+          <option></option>
+          </select>
+               <script>
+               function promptinfo()
+               {
+               var address = document.getElementById('address').value;
+               var s1 = document.getElementById('s1').value;
+               var s2 = document.getElementById('s2').value;
+               var s3 = document.getElementById('s3').value;
+               address=""+s1+ s2 + s3;
+               return address;
+               }
+               </script>
+	  </td>
+      <td style="color: #FF0004;">*</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-size: 25px;color: #868686">留言</td>
+      </tr>
+    <tr>
+      <td><textarea id="liuyeban">&nbsp;</textarea></td>
+      <td style="color: #FF0004;">*</td>
+    </tr>
+  </tbody>
+</table>
+
+		  </form>
+	  </div>
+    </div>
+</div>
+<div id="bottom">
+	<br>
+  <p style="color:#868686;text-align: center;">电话：18757668136 &nbsp; 邮箱：1291985272@QQ.com &nbsp; 地址：XXX省XXX市XXX县XXX路XXX号</p>
+	<p style="color:#868686;text-align: center;margin-top: 1%;">Copyright © 2010-2020   版权所有归2018级181203040402曹荣勋所有未经许可不得复制、更改</p>
+</div>
+</body>
+</html>
